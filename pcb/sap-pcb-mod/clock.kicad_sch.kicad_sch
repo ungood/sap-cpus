@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e2d3c123-c590-40f2-b49b-c65b02e3207c)
+
+  (paper "A4")
+
+  (title_block
+    (company "SEA7 Aerospace")
+    (comment 3 "Jayden Walker")
+    (comment 4 "Jason Walker")
+  )
+
+  (lib_symbols
+  )
+
+)

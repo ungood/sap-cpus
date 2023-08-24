@@ -10,7 +10,7 @@ if [ $# -lt 2 ]; then
     exit 1
 fi
 
-circuit="cpus/$1.circ"
+circuit="logisim/$1.circ"
 program="programs/$2.raw"
 
 if [ ! -f $circuit ]; then
@@ -23,5 +23,4 @@ if [ ! -f $program ]; then
     exit 1
 fi
 
-#TODO: Find logisim from somewhere
-java -jar "${LOGISIM_PATH} "${circuit}" -tty speed -load "${program}"
+java -jar "${LOGISIM_PATH}" "${circuit}" -tty speed -load "${program}"
